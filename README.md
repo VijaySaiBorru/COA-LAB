@@ -34,7 +34,8 @@ g++ final.cpp -o cpu_sim
 1. Enter the number of lines of assembly code.
 2. Paste your assembly instructions.
 3. View the cycle-by-cycle pipeline state.
-
+   
+**[RISC-V CPU Visualizer](https://risc-v-cpu-visualizer.vercel.app/)**
 ---
 
 ## 2️⃣ Standard Cache Simulator (`cache.cpp`)
@@ -412,3 +413,13 @@ A utility to convert RISC-V assembly text directly into 32-bit binary strings.
 g++ assembler.cpp -o assembler
 ./assembler
 ```
+
+---
+
+## 🌐 Interactive Visualizer
+
+If you have any doubts about how the pipeline flows or how instructions are processed step-by-step, you can use this helpful online tool:
+
+👉 **[RISC-V CPU Visualizer](https://risc-v-cpu-visualizer.vercel.app/)**
+
+This visualizer provides a visual representation of the datapath, which can clarify concepts used in the `final.cpp` simulator.

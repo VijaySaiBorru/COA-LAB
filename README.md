@@ -36,6 +36,7 @@ g++ final.cpp -o cpu_sim
 3. View the cycle-by-cycle pipeline state.
    
 **[RISC-V CPU Visualizer](https://risc-v-cpu-visualizer.vercel.app/)**
+
 ---
 
 ## 2️⃣ Standard Cache Simulator (`cache.cpp`)

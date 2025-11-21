@@ -25,6 +25,7 @@ A functional simulator for the RISC-V RV32I (plus M-extension) instruction set.
 ```bash
 g++ final.cpp -o cpu_sim
 ./cpu_sim
+```
 Usage: Enter the number of lines of assembly code, then paste your instructions (e.g., ADD x1, x2, x3).
 
 2️⃣ Standard Cache Simulator (cache.cpp)
@@ -38,9 +39,10 @@ Traffic: Internal Normal Distribution generator.
 
 🚀 How to Run
 Bash
-
+```
 g++ cache.cpp -o cache_sim
 ./cache_sim
+```
 Runs for 100M iterations or 15 seconds.
 
 3️⃣ Advanced Cache: LRU & Write-Back
@@ -217,9 +219,10 @@ int main() {
 Run the code:
 
 Bash
-
+```
 g++ cache_lru.cpp -o lru_sim
 ./lru_sim
+```
 4️⃣ Trace-Based Simulation
 To simulate using a pre-generated list of addresses (Trace File) instead of random generation.
 
@@ -260,16 +263,18 @@ using namespace std;
 </details>
 
 Bash
-
+```
 g++ trace_gen.cpp -o trace_gen
 ./trace_gen  # Creates addresses.txt
 g++ trace_sim.cpp -o trace_sim
 ./trace_sim  # Runs simulation
+```
 5️⃣ Standalone Assembler (assembler.cpp)
 A utility to convert RISC-V assembly text directly into 32-bit binary strings.
 
 🚀 How to Run
 Bash
-
+```
 g++ assembler.cpp -o assembler
 ./assembler
+```
